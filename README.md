@@ -1,7 +1,7 @@
 ## 📂 Directory Structure
 The structure of the repository is organized by general categories:
 
-    2024_DQN-DDQN/
+    CodeSoup/
     │
     ├── Funny                  # for weird & fun codes
     ├── Math                   # for mathematical problems
@@ -20,3 +20,17 @@ Here you’ll find:
 - **Kernel Development Bits**: Code snippets and experiments related to kernel development (such as process tracing).
 
 This repository is a bit of a *soup* of ideas, so feel free to explore and find something interesting.
+
+------
+
+### 🎡 Funny 
+
+    Funny/
+    │
+    └── ILoveU.cpp             # Make heart-shaped text and music
+
+### 📐 Math
+
+    Math/
+    │
+    └── HRP.cpp                # Higher Residousity Problem
