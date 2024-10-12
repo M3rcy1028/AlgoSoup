@@ -1,3 +1,9 @@
+## ※ Repository Structure
+    2024_DQN-DDQN/
+    │
+    ├── Funny                  # for weired & fun codes           
+    └── README.md
+
 # Codesoup 🍲
 
 Welcome to **Codesoup** – a collection of unusual algorithms, quirky code snippets, and everything in between. This repository is a personal sandbox for experimenting with code that may not fit into conventional categories. Whether you're looking for unique solutions to uncommon problems or just some fun and interesting coding exercises, you've come to the right place!
