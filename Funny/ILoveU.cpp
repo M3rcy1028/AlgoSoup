@@ -26,7 +26,7 @@ enum {
 	WHITE,
 };
 
-// ÄÜ¼Ö ÅØ½ºÆ® »ö»ó º¯°æÇØÁÖ´Â ÇÔ¼ö
+// ì½˜ì†” í…ìŠ¤íŠ¸ ìƒ‰ìƒ ë³€ê²½í•´ì£¼ëŠ” í•¨ìˆ˜
 void setColor(unsigned short text) {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), text);
 }
@@ -40,22 +40,22 @@ int main()
 	string str;
 	for (int i = n / 2; i < n; i += 2)
 	{
-		//¢¾
+		//â™¥
 		for (int j = 1; j < n - i; j += 2)  str.append(" ");
-		for (int j = 1; j < i + 1; j++) str.append("¢¾");
+		for (int j = 1; j < i + 1; j++) str.append("â™¥");
 		for (int j = 1; j < n - i + 1; j++) str.append(" ");
-		for (int j = 1; j < i + 1; j++) str.append("¢¾");
+		for (int j = 1; j < i + 1; j++) str.append("â™¥");
 		str.append("\n");
 	}
 	for (int i = n; i > 0; i--)
 	{
 		for (int j = 0; j < n - i; j++) str.append(" ");
-		for (int j = 1; j < i * 2; j++) str.append("¢¾");;
+		for (int j = 1; j < i * 2; j++) str.append("â™¥");;
 		str.append("\n");
 	}
 	setColor(RED);		//text : RED
 	cout << str;
 	setColor(BLACK);	//text : WHITE
-	_getch(); //ÀÌ°Å ¾øÀ¸¸é Àç»ı ¾È µÊ, ¹°·Ğ ÀÌ ÄÚµå ÇÑÁ¤
+	_getch(); //ì´ê±° ì—†ìœ¼ë©´ ì¬ìƒ ì•ˆ ë¨, ë¬¼ë¡  ì´ ì½”ë“œ í•œì •
 	return 0;
 }
