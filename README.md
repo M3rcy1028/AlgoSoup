@@ -1,4 +1,5 @@
-## ※ Repository Structure
+## 📂 Directory Structure
+The structure of the repository is organized by general categories:
     2024_DQN-DDQN/
     │
     ├── Funny                  # for weird & fun codes
@@ -18,8 +19,3 @@ Here you’ll find:
 - **Kernel Development Bits**: Code snippets and experiments related to kernel development (such as process tracing).
 
 This repository is a bit of a *soup* of ideas, so feel free to explore and find something interesting.
-
-## 📂 Directory Structure
-
-The structure of the repository is organized by general categories:
-
