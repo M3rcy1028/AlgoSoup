@@ -1,7 +1,7 @@
 ## ※ Repository Structure
     2024_DQN-DDQN/
     │
-    ├── Funny                  # for weired & fun codes           
+    ├── Funny                  # for weird & fun codes           
     └── README.md
 
 # Codesoup 🍲
