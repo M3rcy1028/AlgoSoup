@@ -3,8 +3,8 @@ The structure of the repository is organized by general categories:
 
     CodeSoup/
     │
-    ├── Funny                  # for weird & fun codes
-    ├── Math                   # for mathematical problems
+    ├── Funny                  # weird & fun codes
+    ├── Math                   # mathematical problems
     └── README.md
 
 # Codesoup 🍲
